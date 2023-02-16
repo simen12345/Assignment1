@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komputer Store</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <p>Komputer Store</p>
+    </header>
+    <main>
+        <div class="grid-container">
+            <div class="bank">
+                <h2>Joe Banker</h2>
+                <p id="balance">Balance 200.00 kr</p>
+                <p class="loan" id="outstandingLoan">Outstanding loan 0.00 kr</p>
+                <button id="getLoan">Get a loan</button>
+            </div>
+            <div class="work">
+                <h2>Work</h2>
+                <p id="pay">Pay 0.00 kr</p>
+                <button class="repayLoanButton" id="repayLoan">Repay loan</button>
+                <button class="bankButton" id="bank">Bank</button>
+                <button class="workButton" id="work">Work</button>
+            </div>
+            <div class="laptopSelection">
+                <h2>Laptops</h2>
+                <select name="computers" id="computers"></select>
+                <h4>Features:</h4>
+                <p id="features" class="features"></p>
+            </div>
+            <div class="infoSection">
+                <div class="compImg">
+                    <img src="https://hickory-quilled-actress.glitch.me/assets/images/1.png" alt="Computer" id="computerPhoto"/>
+                </div>
+                <div class="compDesc">
+                    <h2 id="name">Classic Notebook</h2>
+                    <p id="description">A little old, but turns on.</p>
+                </div>
+                <div class="compBuy">
+                    <h2 id="price" class="price">200 NOK</h2>
+                    <button class="buyNowButton" id="buyNow">BUY NOW</button>
+                    <p id="buyFeedback"></p>
+                </div>              
+            </div>
+        </div>
+    </main>
+    <script src = "assignment1.js" type="text/JavaScript">  
+    </script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+header p {
+    color: white;
+    font-size: 30px;
+    margin-left: 240px;
+    line-height: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1.5fr 1fr;
+    width: 80%;
+    max-width: 800px;
+    height: 500px;
+    margin: 0 auto 10px auto;
+}
+
+.bank, .work, .laptopSelection {
+    height: 80%;
+    display: inline-block;
+    margin: 50px 10px 0 10px;
+    position: relative;
+}
+
+.infoSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 1/4;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.bank button, .bankButton, .workButton, .repayLoanButton, .buyNowButton {
+    height: 30px;
+    position: absolute;
+    bottom: 20px;
+    border: 1px solid black;
+    box-shadow: 1px 1px;
+    border-radius: 5px;
+}
+
+.bankButton, .workButton {
+    width: 95px;
+}
+
+.bank button, .repayLoanButton {
+    background-color: #00FF00;
+    width: 205px;
+}
+
+.bankButton {
+    background-color: yellow;
+    margin-right: 10px;
+}
+
+.workButton {
+    background-color: blue;
+    left: 110px;
+}
+
+.repayLoanButton {
+    bottom: 60px;
+    display: none;
+}
+
+.buyNowButton {
+    background-color: #ADD8E6;
+    width: 205px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.loan {
+    display: none;
+}
+
+.features {
+    font-size: 10px;
+}
+
+.compImg, .compDesc, .compBuy {
+    height: 100%;
+    width: 30%;
+    position: relative;
+}
+
+.compImg img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.compDesc {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.compBuy {
+    margin-right: 50px;
+}
+
+.price {
+    text-align: center;
+}
+
+.compBuy p {
+    margin-top: 100px;
+}
